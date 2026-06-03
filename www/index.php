@@ -1,4 +1,13 @@
 <?php
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-24EH066H0J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-24EH066H0J');
+</script>
 include 'controller/identification_controller.php';
 
 if(isset($_GET['error'])){
