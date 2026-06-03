@@ -1,13 +1,3 @@
-<?php
-
-</script>
-include 'controller/identification_controller.php';
-
-if(isset($_GET['error'])){
-  echo '<script>alert("Les mots de passe ne sont pas identiques ")</script>';
-}
-
-?>
 
 <!DOCTYPE html>
 <html >
